@@ -1,3 +1,4 @@
+import model.Bus;
 import model.Car;
 import model.Minivan;
 
@@ -8,10 +9,13 @@ public class VehicleNoise {
 	public static void main(String[] args) {
 		Car honda = new Car();
 		System.out.println(honda.makeNoise());
-	
-		
+    
 		Minivan toyota = new Minivan();
 		System.out.println(toyota.makeNoise());
+
+		Bus bus = new Bus();
+		System.out.println(bus.makeNoise());
+
 	}
 
 }
