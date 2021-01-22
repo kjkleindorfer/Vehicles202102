@@ -1,3 +1,4 @@
+import model.Bus;
 import model.Car;
 
 public class VehicleNoise {
@@ -8,6 +9,8 @@ public class VehicleNoise {
 		Car honda = new Car();
 		System.out.println(honda.makeNoise());
 		
+		Bus bus = new Bus();
+		System.out.println(bus.makeNoise());
 	}
 
 }
