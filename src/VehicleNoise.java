@@ -1,6 +1,7 @@
 import model.Bus;
 import model.Car;
 import model.Minivan;
+import model.Aircraft;
 
 public class VehicleNoise {
 	//add your vehicle class to the model package
@@ -15,7 +16,8 @@ public class VehicleNoise {
 
 		Bus bus = new Bus();
 		System.out.println(bus.makeNoise());
-
+		
+		Aircraft helicopter = new Aircraft();
+		System.out.println(helicopter.makeNoise());
 	}
-
 }
