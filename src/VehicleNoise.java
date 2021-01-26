@@ -23,5 +23,6 @@ public class VehicleNoise {
 		
 		Motorcycle indian = new Motorcycle();
 		System.out.println(indian.makeNoise());
+		
 	}
 }
