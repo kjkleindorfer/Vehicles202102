@@ -1,6 +1,7 @@
 import model.Bus;
 import model.Car;
 import model.Minivan;
+import model.Train;
 import model.Motorcycle;
 import model.Aircraft;
 
@@ -21,6 +22,9 @@ public class VehicleNoise {
 		Aircraft helicopter = new Aircraft();
 		System.out.println(helicopter.makeNoise());
 		
+		Train trainy = new Train();
+		System.out.println(trainy.makeNoise());
+
 		Motorcycle indian = new Motorcycle();
 		System.out.println(indian.makeNoise());
 		
