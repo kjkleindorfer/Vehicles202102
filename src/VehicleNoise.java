@@ -4,6 +4,7 @@ import model.Minivan;
 import model.Train;
 import model.Motorcycle;
 import model.Aircraft;
+import model.Limo;
 
 public class VehicleNoise {
 	//add your vehicle class to the model package
@@ -27,6 +28,9 @@ public class VehicleNoise {
 
 		Motorcycle indian = new Motorcycle();
 		System.out.println(indian.makeNoise());
+		
+		Limo convertibleLimo = new Limo();
+		System.out.println(convertibleLimo.noise());
 		
 	}
 }
