@@ -3,6 +3,7 @@ import model.Car;
 import model.Minivan;
 import model.Train;
 import model.Motorcycle;
+import model.MuscleCar;
 import model.Aircraft;
 import model.Limo;
 
@@ -32,5 +33,7 @@ public class VehicleNoise {
 		Limo convertibleLimo = new Limo();
 		System.out.println(convertibleLimo.noise());
 		
+		MuscleCar dodgeChallenger = new MuscleCar();
+		System.out.println(dodgeChallenger.makeNoise());
 	}
 }
