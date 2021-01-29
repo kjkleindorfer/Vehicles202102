@@ -3,6 +3,7 @@ import model.Car;
 import model.Minivan;
 import model.Train;
 import model.Motorcycle;
+import model.MuscleCar;
 import model.Aircraft;
 import model.Bicycle;
 import model.Limo;
@@ -36,5 +37,8 @@ public class VehicleNoise {
 		Bicycle bike = new Bicycle();
 		System.out.println(bike.makeNoise());
 		
+		MuscleCar dodgeChallenger = new MuscleCar();
+		System.out.println(dodgeChallenger.makeNoise());
+
 	}
 }
