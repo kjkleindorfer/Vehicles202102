@@ -8,6 +8,7 @@ import model.Aircraft;
 import model.Bicycle;
 import model.Limo;
 import model.Truck;
+import model.Unicycle;
 
 public class VehicleNoise {
 	//add your vehicle class to the model package
@@ -43,6 +44,9 @@ public class VehicleNoise {
 		
 		MuscleCar dodgeChallenger = new MuscleCar();
 		System.out.println(dodgeChallenger.makeNoise());
+		
+		Unicycle wheelie = new Unicycle();
+		System.out.println(wheelie.makeNoise());
 
 
 	}
